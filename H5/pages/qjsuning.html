@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" charset="utf-8" />
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>亲呗借款 应急无忧</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/animate.css">
+  <link rel="stylesheet" href="./css/qjsuning.css">
+</head>
+<body>
+  <div class="qjsuning">
+    <div class="topbg">
+      <div></div>
+    </div>
+    <div class="loginstop">
+      <div class="maxloan">最高可借</div>
+      <div class="num">
+        <span class="sp1">¥</span><span class="sp2">200,000</span>
+      </div>
+      <div class="content">
+        <div class="phone enterbox">
+          <input class="phval" type="tel" placeholder="请输入手机号" oninput="enterNumber(event, 11)">
+        </div>
+        <div class="v-code enterbox">
+            <input class="codeval" type="tel" placeholder="请输入验证码" oninput="enterNumber(event, 6)">
+            <span onclick="getCode()" class="get-code">获取验证码</span>
+        </div>
+        <button class="sub-btn" onclick="submit()">查看我的额度</button>
+        <div class="protocol">
+          <i class="agreebtn"></i>
+          <span onclick="agreeFn()">注册时同意并接受</span>
+          <a href="./protocol.html?id=1">《亲家服务协议》</a>
+          <a href="./protocol.html?id=2">《个人信息查询和使用授权书》</a>
+        </div>
+      </div>
+    </div>
+    <div class="center-t"></div>
+    <div class="prddesc">
+      <div>
+        <p class="p1">息费低</p>
+        <p class="p2">日利率低至0.03%</p>
+      </div>
+      <div>
+        <p class="p1">额度高</p>
+        <p class="p2">最高可借200,000元</p>
+      </div>
+      <div>
+        <p class="p1">审批快</p>
+        <p class="p2">最快5分钟放款</p>
+      </div>
+      <div>
+        <p class="p1">选择多</p>
+        <p class="p2">产品多多,任您选择</p>
+      </div>
+    </div>
+    <div class="btmdesc">
+        贷款有风险，借款需谨慎 <br> 亲家在发放贷款前不会向您收取任何费用！请您注意保护自身 <br> 财产安全，谨防上当受骗! <br> 根据个人能力合理贷款，理性消费，避免逾期！<br> 贷款额度、放款时间，以实际审批结果为准<br> 亲家网络技术(北京)有限公司
+    </div>
+    <div class="toast-wrap">
+        <span class="toast-msg"></span>
+    </div>
+    <div class=""></div>
+  </div>
+</body>
+<script src="./lib/rem.js"></script>
+<script src="./lib/axios.0.19.2.min.js"></script>
+<script src="./lib/util.js"></script>
+<script src="./js/qjsuning.js"></script>
+</html>

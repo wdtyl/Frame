@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" charset="utf-8" />
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>立即下载</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/animate.css">
+  <link rel="stylesheet" href="./css/download.css">
+</head>
+<body>
+  <div class="download">
+    <div class="title-desc"></div>
+    <div class="logo">
+        <img src="./images/qjlogo.png" alt="">
+        <p>亲家APP</p>
+    </div>
+    <button class="downbtn" onclick="goDown()">立即下载</button>
+    <div class="btmdesc">
+        贷款有风险，借款需谨慎 <br> 亲家在发放贷款前不会向您收取任何费用！请您注意保护自身 <br> 财产安全，谨防上当受骗! <br> 根据个人能力合理贷款，理性消费，避免逾期！<br> 贷款额度、放款时间，以实际审批结果为准<br> 亲家网络技术(北京)有限公司
+    </div>
+    <div class="toast-wrap">
+        <span class="toast-msg"></span>
+    </div>
+  </div>
+</body>
+<script src="./lib/rem.js"></script>
+<script src="./lib/util.js"></script>
+<script>
+  function goDown() {
+    if (ISAPPLEDEVICE) {
+      toast('请前往应用商店下载亲家app');
+    } else if (ANDROIDDEVICE) {
+      window.location.href = 'http://cdnimg.qinjia2018.com/apk/qinjia_1.0.20.apk';
+    }
+  }
+</script>
+</html>

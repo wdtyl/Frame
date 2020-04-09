@@ -1,0 +1,77 @@
+body,
+div,
+span,
+header,
+footer,
+nav,
+section,
+aside,
+article,
+ul,
+dl,
+dt,
+dd,
+li,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+b,
+textarea,
+button,
+input,
+select,
+figcaption {
+  font-family: 'Helvetica';
+  font-style: normal;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  text-decoration: none;
+
+  border: none;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+}
+
+*:focus {
+  outline: none;
+}
+
+.toast-wrap {
+  display: none;
+  position: fixed;
+  bottom: 7rem;
+  opacity: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+  padding: 0 1rem;
+}
+
+.toast-msg {
+  display: inline-block;
+  background-color: #333333;
+  padding: 0.5rem 0.8rem;
+  font-size: 0.8rem;
+  border-radius: 0.2rem;
+  color: #fff
+}
+
+.toastAnimate {
+  animation: toastKF 2s;
+  -webkit-animation: toastKF 2s;
+  -moz-animation: toastKF 2s;
+  -o-animation: toastKF 2s;
+}

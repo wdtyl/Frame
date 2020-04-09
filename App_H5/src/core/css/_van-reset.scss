@@ -1,0 +1,9 @@
+// 全局覆盖vant的样式
+// oppo Andriod 4.4.4  width: fit-content 不兼容
+.van-toast--text {
+  width: auto !important;
+  max-width: none;
+
+  text-align: center;
+  word-break: keep-all;
+}

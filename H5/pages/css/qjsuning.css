@@ -1,0 +1,192 @@
+.qjsuning{
+    width: 100%;
+    position: relative;
+    padding: 9.15rem 0 1.5rem 0;
+    border: 1px solid red;
+}
+.topbg{
+    width: 100%;
+    height: 12.325rem;
+    background: url("../images/qjimg2.png") no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.topbg div{
+    position: absolute;
+    width: 8.6rem;
+    height: 1.225rem;
+    background: url("../images/qjimg1.png") no-repeat;
+    background-size: 100%;
+    left: .875rem;
+    top: .65rem;
+}
+.loginstop{
+    width: 17rem;
+    height: 15.925rem;
+    background: rgba(255,255,255,1);
+    box-shadow:0px 0px 10px 0px rgba(221,221,221,0.74);
+    border-radius: .3rem;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    padding-top: 1.75rem;
+}
+
+.maxloan{
+    width: 4.8rem;
+    height: 1.975rem;
+    background: url("../images/qjimg6.png") no-repeat;
+    background-size: 100%;
+    text-align: center;
+    padding-top: .45rem;
+    line-height: .71rem;
+    font-size: .7rem;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: -0.35rem;
+    transform: translateX(-50%);
+}
+
+.num{
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+}
+
+.sp1{
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.sp2{
+    line-height: 2.05rem;
+    font-size: 2.05rem;
+}
+
+.content{
+    padding: 0 1.5rem 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.content .enterbox{
+    height: 2.05rem;
+    border: 1px solid #1C1B28;
+    border-radius: 1rem;
+    padding: 0 .75rem;
+    display: flex;
+    align-items: center;
+}
+
+.content div.v-code{
+    margin-top: .475rem;
+    padding-right: 0;
+    justify-content: space-between;
+}
+
+.v-code span{
+    display: block;
+    width: 5rem;
+    height: 1rem;
+    line-height: 1rem;
+    padding: 0 .75rem;
+    font-size: .6rem;
+    color: #e45941;
+    border-left: 1px solid rgba(102,102,102,1);
+    text-align: center;
+}
+
+.sub-btn{
+    display: block;
+    width: 100%;
+    height: 2.05rem;
+    border-radius: 1rem;
+    margin-top: .975rem;
+    background: linear-gradient(90deg,rgba(228,90,66,1) 0%,rgba(206,55,45,1) 100%);
+    font-size: .75rem;
+    color: #fff;
+    text-shadow: 0px 1px 0px rgba(135,39,33,0.77);
+}
+
+.protocol{
+    margin-top: .425rem;
+    text-align: center;
+    line-height: 0.56rem;
+    font-size: .55rem;
+    color: #5C5C5C;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.protocol a{
+    color: #5C5C5C;
+}
+
+.protocol i{
+    display: inline-block;
+    width: 1.4rem;
+    height: 1.4rem;
+    transform: scale(0.5);
+    border: 2px solid #5C5C5C;
+    border-radius: 50%;
+}
+
+.protocol .active {
+    background: #e45941;
+    border: 2px solid #e45941;
+}
+
+.center-t{
+    width: 12.25rem;
+    height: .95rem;
+    background: url("../images/qjimg7.png") no-repeat;
+    background-size: 100%;
+    margin: 2.5rem auto 0;
+}
+
+.prddesc{
+    padding: 0 1.95rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.prddesc div{
+    width: 7.05rem;
+    height: 4.85rem;
+    margin-top: 1.375rem;
+    background: url("../images/qjimg3.png") no-repeat;
+    background-size: 100%;
+    padding-top: 1.06rem;
+}
+
+.prddesc p{
+    text-align: center;
+}
+
+.p1{
+    line-height: .71rem;
+    font-size: .7rem;
+    color: #fff;
+}
+.p2{
+    line-height: .61rem;
+    font-size: .6rem;
+    color: #333;
+    margin-top: 1.425rem;
+}
+
+.btmdesc{
+    line-height: .9rem;
+    font-size: .55rem;
+    color: #C0C0C0;
+    text-align: center;
+    margin-top: 2.375rem;
+}
+
