@@ -541,15 +541,15 @@
     js-levenshtein "^1.1.3"
     semver "^5.3.0"
 
+"@babel/runtime@7.x":
+  version "7.20.6"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.20.6.tgz#facf4879bfed9b5326326273a64220f099b0fce3"
+  dependencies:
+    regenerator-runtime "^0.13.11"
+
 "@babel/runtime@^7.0.0":
   version "7.1.5"
   resolved "http://registry.npm.taobao.org/@babel/runtime/download/@babel/runtime-7.1.5.tgz#4170907641cf1f61508f563ece3725150cc6fe39"
-  dependencies:
-    regenerator-runtime "^0.12.0"
-
-"@babel/runtime@^7.1.5":
-  version "7.2.0"
-  resolved "http://registry.npm.taobao.org/@babel/runtime/download/@babel/runtime-7.2.0.tgz#b03e42eeddf5898e00646e4c840fa07ba8dcad7f"
   dependencies:
     regenerator-runtime "^0.12.0"
 
@@ -602,9 +602,17 @@
   version "1.1.3"
   resolved "http://registry.npm.taobao.org/@nodelib/fs.stat/download/@nodelib/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
 
-"@vant/icons@^1.0.2":
-  version "1.0.3"
-  resolved "http://registry.npm.taobao.org/@vant/icons/download/@vant/icons-1.0.3.tgz#3ea7455f986ba4e2e679ab6e1e46c525485c6aa2"
+"@vant/icons@^1.7.1":
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/@vant/icons/-/icons-1.8.0.tgz#36b13f2e628b533f6523a93a168cf02f07056674"
+
+"@vant/popperjs@^1.1.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@vant/popperjs/-/popperjs-1.3.0.tgz#e0eff017124b5b2352ef3b36a6df06277f4400f2"
+
+"@vue/babel-helper-vue-jsx-merge-props@^1.0.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@vue/babel-helper-vue-jsx-merge-props/-/babel-helper-vue-jsx-merge-props-1.4.0.tgz#8d53a1e21347db8edbe54d339902583176de09f2"
 
 "@vue/babel-preset-app@^3.1.0":
   version "3.1.1"
@@ -1173,13 +1181,6 @@ aws-sign2@~0.7.0:
 aws4@^1.8.0:
   version "1.8.0"
   resolved "http://registry.npm.taobao.org/aws4/download/aws4-1.8.0.tgz#f0e003d9ca9e7f59c7a508945d7b2ef9a04a542f"
-
-axios@^0.17.1:
-  version "0.17.1"
-  resolved "http://registry.npm.taobao.org/axios/download/axios-0.17.1.tgz#2d8e3e5d0bdbd7327f91bc814f5c57660f81824d"
-  dependencies:
-    follow-redirects "^1.2.5"
-    is-buffer "^1.1.5"
 
 axios@^0.18.0:
   version "0.18.0"
@@ -2010,6 +2011,12 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
+cross-env@^5.2.0:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/cross-env/-/cross-env-5.2.1.tgz#b2c76c1ca7add66dc874d11798466094f551b34d"
+  dependencies:
+    cross-spawn "^6.0.5"
+
 cross-spawn@^3.0.0:
   version "3.0.1"
   resolved "http://registry.npm.taobao.org/cross-spawn/download/cross-spawn-3.0.1.tgz#1256037ecb9f0c5f79e3d6ef135e30770184b982"
@@ -2230,6 +2237,10 @@ dashdash@^1.12.0:
 date-now@^0.1.4:
   version "0.1.4"
   resolved "http://registry.npm.taobao.org/date-now/download/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
+
+dayjs@^1.8.23:
+  version "1.11.7"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.7.tgz#4b296922642f70999544d1144a2c25730fce63e2"
 
 de-indent@^1.0.2:
   version "1.0.2"
@@ -3151,7 +3162,7 @@ follow-redirects@^1.0.0:
   dependencies:
     debug "=3.1.0"
 
-follow-redirects@^1.2.5, follow-redirects@^1.3.0:
+follow-redirects@^1.3.0:
   version "1.6.0"
   resolved "http://registry.npm.taobao.org/follow-redirects/download/follow-redirects-1.6.0.tgz#d12452c031e8c67eb6637d861bfc7a8090167933"
   dependencies:
@@ -3332,6 +3343,17 @@ glob@^7.0.0, glob@^7.0.3, glob@^7.0.5, glob@^7.1.2, glob@^7.1.3, glob@~7.1.1:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
+glob@^7.1.1, glob@^7.1.6:
+  version "7.2.3"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-7.2.3.tgz#b8df0fb802bbfa8e89bd1d938b4e16578ed44f2b"
+  dependencies:
+    fs.realpath "^1.0.0"
+    inflight "^1.0.4"
+    inherits "2"
+    minimatch "^3.1.1"
+    once "^1.3.0"
+    path-is-absolute "^1.0.0"
+
 globals@^11.0.1, globals@^11.1.0, globals@^11.7.0:
   version "11.9.0"
   resolved "http://registry.npm.taobao.org/globals/download/globals-11.9.0.tgz#bde236808e987f290768a93d065060d78e6ab249"
@@ -3376,12 +3398,6 @@ globule@^1.0.0:
     glob "~7.1.1"
     lodash "~4.17.10"
     minimatch "~3.0.2"
-
-gq-loader@^0.1.5:
-  version "0.1.5"
-  resolved "http://registry.npm.taobao.org/gq-loader/download/gq-loader-0.1.5.tgz#e7c634774f8e3512fa2be4e3126e6ff8f592404f"
-  dependencies:
-    axios "^0.17.1"
 
 graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   version "4.1.15"
@@ -3703,6 +3719,12 @@ imurmurhash@^0.1.4:
 in-publish@^2.0.0:
   version "2.0.0"
   resolved "http://registry.npm.taobao.org/in-publish/download/in-publish-2.0.0.tgz#e20ff5e3a2afc2690320b6dc552682a9c7fadf51"
+
+increase-memory-limit@^1.0.6:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/increase-memory-limit/-/increase-memory-limit-1.0.7.tgz#80417e736e45fcfd6a3d515b435e2eaea4e62233"
+  dependencies:
+    glob "^7.1.1"
 
 indent-string@^2.1.0:
   version "2.1.0"
@@ -4552,6 +4574,12 @@ minimatch@^3.0.2, minimatch@^3.0.3, minimatch@^3.0.4, minimatch@~3.0.2:
   dependencies:
     brace-expansion "^1.1.7"
 
+minimatch@^3.1.1:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.1.2.tgz#19cd194bfd3e428f049a70817c038d89ab4be35b"
+  dependencies:
+    brace-expansion "^1.1.7"
+
 minimist@0.0.8:
   version "0.0.8"
   resolved "http://registry.npm.taobao.org/minimist/download/minimist-0.0.8.tgz#857fcabfc3397d2625b8228262e86aa7a011b05d"
@@ -4622,6 +4650,10 @@ mkdirp@0.5.1, mkdirp@0.5.x, "mkdirp@>=0.5 0", mkdirp@^0.5.0, mkdirp@^0.5.1, mkdi
   resolved "http://registry.npm.taobao.org/mkdirp/download/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   dependencies:
     minimist "0.0.8"
+
+mock@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/mock/-/mock-0.1.1.tgz#e7e3589c7e6b3376d69f5a3e470b56604417c633"
 
 move-concurrently@^1.0.1:
   version "1.0.1"
@@ -4812,6 +4844,13 @@ node-sass@^4.10.0:
     sass-graph "^2.2.4"
     stdout-stream "^1.4.0"
     "true-case-path" "^1.0.2"
+
+node-symbols@0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/node-symbols/-/node-symbols-0.0.4.tgz#c047e3e6d3b2c4770342646b5dcd9421f5541eff"
+  dependencies:
+    chalk "^2.3.0"
+    figures "^2.0.0"
 
 nojiko@^1.1.0:
   version "1.1.0"
@@ -5718,9 +5757,9 @@ qs@6.5.2, qs@~6.5.2:
   version "6.5.2"
   resolved "http://registry.npm.taobao.org/qs/download/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
 
-qs@^6.6.0:
-  version "6.6.0"
-  resolved "http://registry.npm.taobao.org/qs/download/qs-6.6.0.tgz#a99c0f69a8d26bf7ef012f871cdabb0aee4424c2"
+qs@^6.6.1:
+  version "6.6.1"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.6.1.tgz#badc3705933629bed17bc709ba824ba0676708c5"
 
 querystring-es3@^0.2.0:
   version "0.2.1"
@@ -5860,6 +5899,10 @@ regenerator-runtime@^0.11.0:
 regenerator-runtime@^0.12.0:
   version "0.12.1"
   resolved "http://registry.npm.taobao.org/regenerator-runtime/download/regenerator-runtime-0.12.1.tgz#fa1a71544764c036f8c49b13a08b2594c9f8a0de"
+
+regenerator-runtime@^0.13.11:
+  version "0.13.11"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz#f6dca3e7ceec20590d07ada785636a90cdca17f9"
 
 regenerator-transform@^0.13.3:
   version "0.13.3"
@@ -7058,12 +7101,14 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-vant@^1.4.4:
-  version "1.5.0"
-  resolved "http://registry.npm.taobao.org/vant/download/vant-1.5.0.tgz#7e75272bb3079538231f7a6f64ce204684c8d5ac"
+vant@^2.5.5:
+  version "2.12.53"
+  resolved "https://registry.yarnpkg.com/vant/-/vant-2.12.53.tgz#d8cc479a044c415b2e3d216a41ee3b7857730770"
   dependencies:
-    "@babel/runtime" "^7.1.5"
-    "@vant/icons" "^1.0.2"
+    "@babel/runtime" "7.x"
+    "@vant/icons" "^1.7.1"
+    "@vant/popperjs" "^1.1.0"
+    "@vue/babel-helper-vue-jsx-merge-props" "^1.0.0"
     vue-lazyload "1.2.3"
 
 vary@~1.1.2:
@@ -7145,6 +7190,10 @@ vue-loader@^15.4.2:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
+
+vue-router@^3.1.6:
+  version "3.6.5"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.6.5.tgz#95847d52b9a7e3f1361cb605c8e6441f202afad8"
 
 vue-style-loader@^4.1.0:
   version "4.1.2"
@@ -7273,6 +7322,12 @@ webpack-sources@^1.1.0, webpack-sources@^1.3.0:
   dependencies:
     source-list-map "^2.0.0"
     source-map "~0.6.1"
+
+webpack-zip-plugin@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/webpack-zip-plugin/-/webpack-zip-plugin-0.1.6.tgz#e47648018192421c7f5704d1f7ea552ebf72326e"
+  dependencies:
+    node-symbols "0.0.4"
 
 webpack@^4.18.1:
   version "4.26.0"
